@@ -56,25 +56,25 @@ extension AlgorithmViewController: UITableViewDataSource, UITableViewDelegate {
         let selectedRow = Algos[indexPath.row]
         switch selectedRow.title {
         case "Merge Sort":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Quick Sort":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Binary Search":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Tree Traversals":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Breadth First Search":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Depth First Search":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         case "Kruskal's":
-            let newViewController = HomePageViewController()
+            let newViewController = ComingSoonViewController()
             self.navigationController?.pushViewController(newViewController, animated: true)
         default:
             //add default behavior here

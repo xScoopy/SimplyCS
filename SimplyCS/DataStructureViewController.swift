@@ -60,5 +60,31 @@ extension DataStructureViewController: UICollectionViewDataSource, UICollectionV
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width/2.5, height: collectionView.frame.height/3.5)
     }
-
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedCell = data[indexPath.item]
+        switch selectedCell.title {
+        case "Array":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Stack":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Queue":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Tree":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Graph":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "HashTable":
+            let newViewController = ComingSoonViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        default:
+            //add default behavior here
+            break
+        }
+    }
+    
 }
