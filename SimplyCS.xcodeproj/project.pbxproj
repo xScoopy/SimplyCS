@@ -14,6 +14,9 @@
 		A22E22772699169D00684855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22E22752699169D00684855 /* LaunchScreen.storyboard */; };
 		A22E22822699169D00684855 /* SimplyCSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22812699169D00684855 /* SimplyCSTests.swift */; };
 		A22E228D2699169D00684855 /* SimplyCSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E228C2699169D00684855 /* SimplyCSUITests.swift */; };
+		A22E22A426991E4600684855 /* DataStructureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22A326991E4600684855 /* DataStructureViewController.swift */; };
+		A22E22A926991FC100684855 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22A826991FC100684855 /* TabBarController.swift */; };
+		A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22AD2699250A00684855 /* AlgorithmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A22E22882699169D00684855 /* SimplyCSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyCSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22E228C2699169D00684855 /* SimplyCSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyCSUITests.swift; sourceTree = "<group>"; };
 		A22E228E2699169D00684855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22E22A326991E4600684855 /* DataStructureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureViewController.swift; sourceTree = "<group>"; };
+		A22E22A826991FC100684855 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A22E22AD2699250A00684855 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				A22E226A2699169B00684855 /* AppDelegate.swift */,
 				A22E226C2699169B00684855 /* SceneDelegate.swift */,
+				A22E22A326991E4600684855 /* DataStructureViewController.swift */,
+				A22E22AD2699250A00684855 /* AlgorithmViewController.swift */,
+				A22E22A826991FC100684855 /* TabBarController.swift */,
 				A22E226E2699169B00684855 /* ViewController.swift */,
 				A22E22732699169D00684855 /* Assets.xcassets */,
 				A22E22752699169D00684855 /* LaunchScreen.storyboard */,
@@ -256,6 +265,9 @@
 			files = (
 				A22E226F2699169B00684855 /* ViewController.swift in Sources */,
 				A22E226B2699169B00684855 /* AppDelegate.swift in Sources */,
+				A22E22A426991E4600684855 /* DataStructureViewController.swift in Sources */,
+				A22E22A926991FC100684855 /* TabBarController.swift in Sources */,
+				A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */,
 				A22E226D2699169B00684855 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
