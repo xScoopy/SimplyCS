@@ -11,7 +11,7 @@ import UIKit
 class DataStructureViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .yellow
         setViews()
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -53,7 +53,7 @@ extension DataStructureViewController: UICollectionViewDataSource, UICollectionV
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NewItemCell
-        cell.backgroundColor = .green
+        cell.backgroundColor = .darkGray
         cell.data = self.data[indexPath.row]
         return cell
     }

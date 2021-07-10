@@ -11,6 +11,14 @@ import UIKit
 class AlgorithmViewController: UIViewController {
     let tableView = UITableView()
     
+    let Algos = [Algorithm(title: "Merge Sort", image: UIImage(named: "merge")!),
+                    Algorithm(title: "Quick Sort", image: UIImage(named: "quick")!),
+                    Algorithm(title: "Binary Search", image: UIImage(named: "binary")!),
+                    Algorithm(title: "Tree Traversals", image: UIImage(named: "treetraverse")!),
+                    Algorithm(title: "Breadth First Search", image: UIImage(named: "bfs")!),
+                    Algorithm(title: "Depth First Search", image: UIImage(named: "dfs")!),
+                    Algorithm(title: "Kruskal's", image: UIImage(named: "kruskal")!)]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .yellow
@@ -30,15 +38,17 @@ class AlgorithmViewController: UIViewController {
 }
 extension AlgorithmViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return Algos.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AlgorithmCell
             cell.accessoryType = .disclosureIndicator
             cell.selectionStyle = .none
+        cell.setBoxContents(box: Algos[indexPath.row])
         return cell
     }
-
-
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    }
 }

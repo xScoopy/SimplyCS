@@ -20,6 +20,7 @@
 		A22E22B3269929A000684855 /* NewDataStructCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22B2269929A000684855 /* NewDataStructCell.swift */; };
 		A22E22B826992D8000684855 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22B726992D8000684855 /* DataStructure.swift */; };
 		A22E22BD269932C300684855 /* AlgorithmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22BC269932C300684855 /* AlgorithmCell.swift */; };
+		A22E22C22699350E00684855 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22C12699350E00684855 /* Algorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A22E22B2269929A000684855 /* NewDataStructCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataStructCell.swift; sourceTree = "<group>"; };
 		A22E22B726992D8000684855 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		A22E22BC269932C300684855 /* AlgorithmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmCell.swift; sourceTree = "<group>"; };
+		A22E22C12699350E00684855 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				A22E22BC269932C300684855 /* AlgorithmCell.swift */,
 				A22E22B726992D8000684855 /* DataStructure.swift */,
 				A22E22AD2699250A00684855 /* AlgorithmViewController.swift */,
+				A22E22C12699350E00684855 /* Algorithm.swift */,
 				A22E22A826991FC100684855 /* TabBarController.swift */,
 				A22E22B2269929A000684855 /* NewDataStructCell.swift */,
 				A22E226E2699169B00684855 /* ViewController.swift */,
@@ -281,6 +284,7 @@
 				A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */,
 				A22E226D2699169B00684855 /* SceneDelegate.swift in Sources */,
 				A22E22BD269932C300684855 /* AlgorithmCell.swift in Sources */,
+				A22E22C22699350E00684855 /* Algorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
