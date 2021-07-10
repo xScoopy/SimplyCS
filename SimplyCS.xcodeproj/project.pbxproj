@@ -18,6 +18,7 @@
 		A22E22A926991FC100684855 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22A826991FC100684855 /* TabBarController.swift */; };
 		A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22AD2699250A00684855 /* AlgorithmViewController.swift */; };
 		A22E22B3269929A000684855 /* NewDataStructCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22B2269929A000684855 /* NewDataStructCell.swift */; };
+		A22E22B826992D8000684855 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22B726992D8000684855 /* DataStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A22E22A826991FC100684855 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A22E22AD2699250A00684855 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		A22E22B2269929A000684855 /* NewDataStructCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataStructCell.swift; sourceTree = "<group>"; };
+		A22E22B726992D8000684855 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A22E226A2699169B00684855 /* AppDelegate.swift */,
 				A22E226C2699169B00684855 /* SceneDelegate.swift */,
 				A22E22A326991E4600684855 /* DataStructureViewController.swift */,
+				A22E22B726992D8000684855 /* DataStructure.swift */,
 				A22E22AD2699250A00684855 /* AlgorithmViewController.swift */,
 				A22E22A826991FC100684855 /* TabBarController.swift */,
 				A22E22B2269929A000684855 /* NewDataStructCell.swift */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22E226F2699169B00684855 /* ViewController.swift in Sources */,
+				A22E22B826992D8000684855 /* DataStructure.swift in Sources */,
 				A22E226B2699169B00684855 /* AppDelegate.swift in Sources */,
 				A22E22A426991E4600684855 /* DataStructureViewController.swift in Sources */,
 				A22E22A926991FC100684855 /* TabBarController.swift in Sources */,

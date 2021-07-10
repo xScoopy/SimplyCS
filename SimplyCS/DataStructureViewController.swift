@@ -16,6 +16,14 @@ class DataStructureViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
     }
+    let data = [
+        DataStructure(title: "Array", image: UIImage(named: "linkedlist")!),
+        DataStructure(title: "Stack", image: UIImage(named: "stack")!),
+        DataStructure(title: "Queue", image: UIImage(named: "queue")!),
+        DataStructure(title: "Tree", image: UIImage(named: "tree")!),
+        DataStructure(title: "Graph", image: UIImage(named: "graph")!),
+        DataStructure(title: "HashTable", image: UIImage(named: "hash")!)
+    ]
     
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -40,12 +48,13 @@ class DataStructureViewController: UIViewController {
 }
 extension DataStructureViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return data.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NewItemCell
         cell.backgroundColor = .green
+        cell.data = self.data[indexPath.row]
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
