@@ -51,4 +51,34 @@ extension AlgorithmViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //case statement to placehold where actual algorithm data will go
+        let selectedRow = Algos[indexPath.row]
+        switch selectedRow.title {
+        case "Merge Sort":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Quick Sort":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Binary Search":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Tree Traversals":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Breadth First Search":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Depth First Search":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        case "Kruskal's":
+            let newViewController = HomePageViewController()
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        default:
+            //add default behavior here
+            break
+        }
+    }
 }
