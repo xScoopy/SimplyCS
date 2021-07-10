@@ -39,7 +39,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate{
         let navController1 = UINavigationController(rootViewController:HomePageVC)
         HomePageVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "tab-home"), tag: 0)
 
-        let DataStructureVC = DataStructureVewController()
+        let DataStructureVC = DataStructureViewController()
         let navController2 = UINavigationController(rootViewController:DataStructureVC)
         DataStructureVC.tabBarItem = UITabBarItem(title: "Data Structs", image: UIImage(named: "tab-history"), tag: 1)
         

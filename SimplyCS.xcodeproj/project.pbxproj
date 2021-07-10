@@ -17,6 +17,7 @@
 		A22E22A426991E4600684855 /* DataStructureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22A326991E4600684855 /* DataStructureViewController.swift */; };
 		A22E22A926991FC100684855 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22A826991FC100684855 /* TabBarController.swift */; };
 		A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22AD2699250A00684855 /* AlgorithmViewController.swift */; };
+		A22E22B3269929A000684855 /* NewDataStructCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E22B2269929A000684855 /* NewDataStructCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A22E22A326991E4600684855 /* DataStructureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureViewController.swift; sourceTree = "<group>"; };
 		A22E22A826991FC100684855 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A22E22AD2699250A00684855 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		A22E22B2269929A000684855 /* NewDataStructCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataStructCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A22E22A326991E4600684855 /* DataStructureViewController.swift */,
 				A22E22AD2699250A00684855 /* AlgorithmViewController.swift */,
 				A22E22A826991FC100684855 /* TabBarController.swift */,
+				A22E22B2269929A000684855 /* NewDataStructCell.swift */,
 				A22E226E2699169B00684855 /* ViewController.swift */,
 				A22E22732699169D00684855 /* Assets.xcassets */,
 				A22E22752699169D00684855 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				A22E226B2699169B00684855 /* AppDelegate.swift in Sources */,
 				A22E22A426991E4600684855 /* DataStructureViewController.swift in Sources */,
 				A22E22A926991FC100684855 /* TabBarController.swift in Sources */,
+				A22E22B3269929A000684855 /* NewDataStructCell.swift in Sources */,
 				A22E22AE2699250A00684855 /* AlgorithmViewController.swift in Sources */,
 				A22E226D2699169B00684855 /* SceneDelegate.swift in Sources */,
 			);
